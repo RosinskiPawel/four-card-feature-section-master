@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 *:root {
   --red: hsl(0, 78%, 62%);
@@ -16,9 +16,49 @@
 }
 html {
   font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .body {
-  font-family: 'League Spartan', sans-serif;
   font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  min-height: 100vh;
+}
+
+.container_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height: 1360px;
+  width: 375px;
+  background-color: var(--Very-Light-Gray);
+  padding: 90px 40px 80px 40px;
+}
+.top-part > h1 {
+  font-weight: 200;
+  font-size: 1.8rem;
+}
+.top-part > h2 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 1.3rem;
+  padding-bottom: 2.5rem;
+}
+.top-part > p {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.top-part {
+  text-align: center;
+  line-height: 25px;
+  padding-bottom: 75px;
 }
