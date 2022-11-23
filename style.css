@@ -1,0 +1,11 @@
+*:root {
+  --colred: hsl(0, 78%, 62%);
+  --colcyan: hsl(180, 62%, 55%);
+  --colorange: hsl(34, 97%, 64%);
+  --colblue: hsl(212, 86%, 64%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
