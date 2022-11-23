@@ -62,3 +62,20 @@ html {
   line-height: 25px;
   padding-bottom: 75px;
 }
+.supervisor {
+  width: 310px;
+  height: 220px;
+  background-color: white;
+  border-radius: 5px;
+  border-top: 3px solid var(--cyan);
+  padding: 30px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.supervisor > h1 {
+  padding-bottom: 15px;
+}
+.picture {
+  padding-top: 25px;
+  padding-left: 190px;
+}
