@@ -89,7 +89,82 @@ html {
 .supervisor > h1 {
   padding-bottom: 15px;
 }
+.builder > h1 {
+  padding-bottom: 15px;
+}
+.karma > h1 {
+  padding-bottom: 15px;
+}
+.calculator > h1 {
+  padding-bottom: 15px;
+}
 .picture {
   padding-top: 25px;
   padding-left: 190px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .container_card {
+    height: 900px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+  }
+  .top-part > h1 {
+    font-size: 2.6rem;
+  }
+  .top-part > h2 {
+    font-size: 2.6rem;
+  }
+  .top-part > p {
+    font-size: 1.1rem;
+    padding-left: 450px;
+    padding-right: 450px;
+  }
+  .top-part {
+    padding-bottom: 50px;
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .supervisor,
+  .builder,
+  .karma,
+  .calculator {
+    width: 350px;
+    height: 250px;
+    font-size: 1.2rem;
+    line-height: 25px;
+    padding-top: 40px;
+  }
+  .builder,
+  .karma {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .supervisor,
+  .calculator {
+    margin-top: 120px;
+  }
+  .supervisor > h1 {
+    font-size: 2.2rem;
+  }
+  .builder > h1 {
+    font-size: 2.2rem;
+  }
+  .karma > h1 {
+    font-size: 2.2rem;
+  }
+  .calculator > h1 {
+    font-size: 2.2rem;
+  }
+  .picture {
+    padding-top: 25px;
+    padding-left: 220px;
+  }
 }
